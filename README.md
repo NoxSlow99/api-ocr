@@ -31,7 +31,7 @@ Esta es una API RESTful básica construida con **Node.js**, **Express** y **Type
 ## 📦 Instalación Local
 
 ```bash
-git clone https://github.com/NoxSlow99/apiRestTopico.git
+git clone https://github.com/NoxSlow99/api-ocr.git
 cd API_OCR
 npm install
 npm run dev
