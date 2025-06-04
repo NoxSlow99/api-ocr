@@ -14,10 +14,6 @@ export const extractTextFromIneService = async (
   const fullTextFront = frontResult.fullTextAnnotation?.text;
 
   if (!fullTextFront) {
-    throw new BadRequestException("No se pudo extraer texto de las imagenes");
-  }
-
-  if (!fullTextFront) {
     throw new BadRequestException("No se pudo extraer texto de la imagen");
   }
 

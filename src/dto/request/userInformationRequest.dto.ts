@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsNumber, IsString } from "class-validator";
+import { IsNotEmpty, IsNumber, IsString, Length } from "class-validator";
 
 export class UserInformationDto {
   @IsString()
@@ -19,6 +19,7 @@ export class UserInformationDto {
 
   @IsNumber()
   @IsNotEmpty()
+  @Length(5, 5)
   postalCode!: number;
 
   @IsString()

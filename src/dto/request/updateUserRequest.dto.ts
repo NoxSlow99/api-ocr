@@ -1,4 +1,4 @@
-import { IsNumber, IsOptional, IsString } from "class-validator";
+import { IsNumber, IsOptional, IsString, Length } from "class-validator";
 
 export class UpdateUserProfileDto {
   @IsOptional()
@@ -27,6 +27,7 @@ export class UpdateUserProfileDto {
 
   @IsOptional()
   @IsNumber()
+  @Length(5, 5)
   postalCode!: number;
 
   @IsOptional()

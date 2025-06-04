@@ -46,7 +46,7 @@ export const userService = {
     }
   }, */
 
-  async createOrUpdateInformation(
+  async createInformation(
     userId: string,
     data: UserInformationDto
   ): Promise<MessageResponse> {

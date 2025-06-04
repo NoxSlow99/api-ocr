@@ -12,7 +12,7 @@ export const addUserInformation = async (
 
   const data = req.body as UserInformationDto;
 
-  const response = await userService.createOrUpdateInformation(userId, data);
+  const response = await userService.createInformation(userId, data);
 
   res.status(200).json(response);
 };
