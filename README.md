@@ -1,5 +1,28 @@
 # 🧠 OCR API con Autenticación y Gestión de Usuario
 
+---
+
+<p align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/NoxSlow99/api-ocr?style=plastic">
+
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/NoxSlow99/api-ocr?style=plastic">
+
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NoxSlow99/api-ocr?style=plastic&logo=GitHub">
+
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/NoxSlow99/api-ocr?style=plastic&logo=GitHub">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/TypeScript-%233178C6?style=plastic&logo=typescript">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/MongoDB-%23%2347A248?style=plastic&logo=mongodb">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/Node.js-%235FA04E?style=plastic&logo=node.js">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/Docker-%232496ED?style=plastic&logo=docker">
+
+</p>
+
+---
+
 Esta es una API RESTful básica construida con **Node.js**, **Express** y **TypeScript**. Su propósito es realizar autenticación de usuarios, extracción de texto OCR (como datos de INE), y manejo de información adicional del usuario, con documentación integrada usando Swagger.
 
 ## 🚀 Tecnologías Utilizadas
@@ -133,6 +156,12 @@ Esto levantará un contenedor:
 ### Volúmenes
 
 Los datos de MongoDB se guardan en un volumen llamado mongo que se queda alojado en la carpeta raíz del proyecto, por lo que no se perderán entre reinicios.
+
+---
+
+🛠️ Sobre este Proyecto
+
+Esta API fue desarrollada como una versión de demostración basada en un proyecto real realizado con NestJS para una empresa del sector hotelero. Dado que ese proyecto original no puede hacerse público, esta implementación con Express.js y TypeScript fue creada con propósitos educativos y de portafolio. El objetivo es reflejar la lógica, estructura y funcionalidad de aquel sistema original, incluyendo autenticación, extracción de datos OCR y, como plus, agregando gestión de usuarios guardado en una base de datos.
 
 ---
 
