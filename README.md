@@ -62,6 +62,19 @@ npm run dev
 
 ---
 
+## ☁️ Configuración de Google Cloud Vision
+
+Este proyecto utiliza la API de Google Cloud Vision para realizar el reconocimiento de texto OCR desde imágenes de INE.
+
+Para que funcione correctamente, necesitas generar una **clave de servicio (Service Account Key)** y colocarla en un archivo `.json`, luego configurarla como variable de entorno.
+
+📄 Hemos incluido una guía visual paso a paso para ayudarte a generar tus credenciales:
+👉 [Ver guía de configuración (google-cloud-setup.docx)](./docs/google-cloud-setup.docx)
+
+> Abre el archivo con Word, LibreOffice o súbelo a Google Drive para visualizarlo.
+
+---
+
 ## ⚙️ Variables de entorno
 
 Crea un archivo `.env` en la raíz del proyecto, puedes apoyarte con el archivo `.env.template`
